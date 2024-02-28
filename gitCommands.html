@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT Commands</title>
+</head>
+
+<body>
+
+    <h1>For Git Bash / Any CMD</h1>
+    
+    <ul>
+        <li>git config --global user.name "Rashindu Tharinda"</li>
+        <li>git config --global user.email tharindarashindu@gmail.com</li>
+        <li>git config --global init.default branch main</li>
+        <li>git config -h</li>
+        <li>git help config</li>
+        <li>git init</li>
+        <li>git status</li>
+        <li>git add index.htm</li>
+        <li>git rm --cached index.htm</li>
+        <li>git add --all | git add -A | git add .</li>
+        <li>git commit -m "first commit"</li>
+        <li>git diff</li>
+        <li>git restore --staged index.htm</li>
+        <li>git commit -a -m "skip staging area and commit"</li>
+        <li>git rm "secret recipe.htm"</li>
+        <li>git restore "secret recipe.htm"</li>
+        <li>git mv "KCC Logo.png" "Primary Logo.png"</li>
+        <li>git log</li>
+        <li>git log --oneline</li>
+        <li>git commit -m "amend previous commit" --amend</li>
+        <li>git log -p</li>
+        <li>git help log</li>
+        <li>git reset c193567</li>
+        <li>git rebase -i --root</li>
+        <li>git branch NewBranch</li>
+        <li>git branch</li>
+        <li>git switch NewBranch</li>
+        <li>git merge -m "merge NewBranch back to main" NewBranch</li>
+        <li>git branch -d NewBranch</li>
+        <li>git switch -c AnotherBranch</li>
+        <li>git merge AnotherBranch</li>
+    </ul>
+
+    <hr>
+    <h1>For GitHub</h1>
+    <h2>Create a new repository on the command line.</h2>
+
+    <p>Create a folder and open it on CMD</p>
+
+    <ul>
+        <li>echo "# Example text" >> README.me</li>
+        <li>git init</li>
+        <li>git add README.md</li>
+        <li>git commit -m "first commit"</li>
+        <li>git branch -M main</li>
+        <li>git remote add origin https://github.com/itsme-rash522/repoName.git</li>
+        <li>git push -u origin main</li>
+    </ul>
+
+    <h2>Push an existing repository from the command line</h2>
+
+    <p>Open local repository(folder) on CMD</p>
+
+    <ul>
+        <li>git remote add origin https://github.com/itsme-rash522/repoName.git</li>
+        <li>git branch -M main</li>
+        <li>git push -u origin main</li>
+    </ul>
+
+</body>
+
+</html>
