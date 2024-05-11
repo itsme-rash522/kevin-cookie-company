@@ -63,7 +63,7 @@
 ### Push new files from local repo to remote repo while remote repo have different existing files
 
 - `git fetch origin main`
-- `git log origin/<branch-name>`
-- `git merge origin/<branch-name>`
-- `git rebase origin/<branch-name>`
-- `git push origin <branch-name>`
+- `git log origin main`
+- `git merge origin main`
+- `git rebase origin main`
+- `git push origin main`
