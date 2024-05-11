@@ -60,7 +60,7 @@
 - `git branch -M main`
 - `git push -u origin main`
 
-### Push new files from local repo to remote repo while remote repo have different existing files
+### Push new files from local repo to remote repo while remote repo have different existing commits
 
 - `git fetch origin main`
 - `git log origin main`
